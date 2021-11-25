@@ -23,7 +23,7 @@
 
 .logo {
   width: 183px;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .logo_place_header {
@@ -151,6 +151,7 @@
 .section-title_theme_dark {
   margin: 90px auto 20px;
   color: white;
+  z-index: 1;
 }
 
 .section-subtitle {
@@ -164,6 +165,7 @@
 
 .section-subtitle_theme_dark {
   color: white;
+  z-index: 1;
 }
 
 .table {
@@ -281,6 +283,7 @@
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
+  z-index: 1;
 }
 
 .table__text-theme_dark {
@@ -293,7 +296,7 @@
   position: absolute;
   background-image: url(../images/kaufman-triangle.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   z-index: 0;
   right: -210px;
   top: 0;
@@ -367,5 +370,6 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
