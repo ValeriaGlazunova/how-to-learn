@@ -6,4 +6,9 @@
   color: white;
   display: flex;
   align-items: center;
+  transition: opacity 1s;
+}
+
+.footer__column-link:hover {
+  opacity: .2;
 }
