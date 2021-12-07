@@ -1,6 +1,5 @@
 .header__title {
-  position: absolute;
-  left: 64px;
+  margin: 0 0 0 64px;
   font-size: 102px;
   font-weight: bold;
   max-width: 730px;
